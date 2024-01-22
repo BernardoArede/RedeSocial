@@ -18,10 +18,10 @@ const NavBar = () => {
                 <NavLink to = "/About" className={({isActive}) => (isActive ? styles.active : "")}>About</NavLink>  
             </li>
             <li>
-                <NavLink to = "./pages/Login/Login" className={({isActive}) => (isActive ? styles.active : "")}>Login</NavLink>
+                <NavLink to = "/Login" className={({isActive}) => (isActive ? styles.active : "")}>Login</NavLink>
             </li>
             <li>
-                <NavLink to = "./pages/Register/Register" className={({isActive}) => (isActive ? styles.active : "")}>Register</NavLink>
+                <NavLink to = "/Register" className={({isActive}) => (isActive ? styles.active : "")}>Register</NavLink>
             </li>
             
         </ul>
